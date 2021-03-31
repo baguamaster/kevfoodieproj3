@@ -172,6 +172,87 @@
         <script src="js/restaurants.js"></script>
         <script src="js/reviews.js"></script>
     </head>
+<body onload="getRestaurantData()">
+        <!-- This is the container that holds the initial message, heading, and movies -->
+        <div class="container">
+        <!-- The message will be shown when the page loads and will
+        disappear after the movies are loaded -->
+            <div class="row" id="parent">
+                Retrieving restaurants from database... Please wait...<br><br>
+                If you are seeing this message for a long time, it is likely
+                that you have a JavaScript error. Troubleshoot your script by
+                using the browser console panel now. Please use either Firefox
+                or Chrome to render this webpage.
+            </div>
+            <p>
+                <!-- This is the heading showing how many movies are there -->
+                <h3 id="summary"></h3>
+            </p>
+            <!-- Displays thumbnails of the movies here -->
+            <div id="restaurantsTable" class="row"></div>
+        </div>
+        <!-- Include the comments modal here -->
+        <div w3-include-html="review-modal.html"></div>
+        <!-- Include the movies modal here -->
+        <div w3-include-html="restaurant-modal.html"></div>
+        <!--Include the new comments modal here -->
+        <div w3-include-html="new-reviews-modal.html"></div>
+        <!--Include the edit comments modal here -->
+        <div w3-include-html="edit-reviews-modal.html"></div>
+        <!--Include the message modal here -->
+        <div w3-include-html="message-modal.html"></div>
+        <!--<div w3-include-html="test-modal.html" style="background-color: black"></div> -->
+        <br><br>
+        
+    </body>
+<script src="js/w3.js"></script>
+<script>
+        //to bring in other HTML on the fly into this page
+        w3.includeHTML();
+</script>
+
+		</div>
+	</div>
+
+	<!-- End of 3 Column Section -->
+
+	<!-- Start JBT-->
+	<div class="jumbotron py-5 mb-0">
+    <div class="container">
+        <div class="row">
+
+            
+            
+            <div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+                <a href="contact.html" class="btn btn-danger btn-lg">For any enquiries</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+	<!-- Start of Footer -->
+	<footer>
+	<div class="container">
+		<div class="row text-light text-center py-4 justify-content-center">
+
+			<div class="col-sm-10 col-md-8 col-lg-6">
+				<img src="img/logo.jpg" alt="jbb">
+				<p>We believe in Honest Reviews! Join us to write your own.</p>
+				<ul class="social pt-2">
+					<li><a href="https://www.facebook.com/HungryGoWhere/" target="_blank"><i class="fab fa-facebook fa-4x"></i></a></li>
+					<li><a href="https://www.youtube.com/channel/UCfE5Cz44GlZVyoaYTHJbuZw" target="_blank"><i class="fab fa-youtube fa-4x"></i></a></li>
+					<li><a href="https://twitter.com/hungrygowhere?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com/hungrygowhere/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+					
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	</footer>
+	<!-- End of Footer -->
 
 	
 	
