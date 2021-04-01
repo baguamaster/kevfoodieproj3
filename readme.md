@@ -38,7 +38,7 @@ Github version control maybe accessed via:
 
 [**https://github.com/baguamaster/kevfoodieproj3**](https://github.com/baguamaster/kevfoodieproj3)
 
-![](RackMultipart20210401-4-dqop97_html_1bf00bdbec43ac43.png)
+![image](img/readmepics/1.jpg)
 
 # **Website Purpose**
 
