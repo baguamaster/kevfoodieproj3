@@ -92,6 +92,8 @@ The site owner, up-and-coming Foodie Blogger, John Wong, wants this website to:
 - Write code that meets minimum standards for readability (comments, indentation, consistent and meaningful naming conventions).
 - Name files consistently and descriptively, without spaces or capitalisation to allow for cross-platform compatibility.
 
+![image](img/readmepics/2.jpg) 
+
 **UX Site Structure Development &amp; Information Organisation (corresponding to above L01)**
 
 **Information Architecture**
@@ -103,7 +105,7 @@ Information required on the website to fulfil the content requirements.
 1. Explanation of what JIA BA BEH is about
 2. Services that JIA BA BEH specializes in
 3. A review posting facility allowing fans of the foodie blogger to post reviews
-4. A ![](RackMultipart20210401-4-dqop97_html_d3b7a2352ffe0c7a.png) free member registration process
+4. A free member registration process
 5. Imagery appropriate to the website
 6. Ability to post new restaurants for review and feedback
 7. Introduction of the &quot;JIN SWEE&quot; (Chinese dialect for &quot;Very Nice&quot;) Award for the best restaurants and eating establishments (aka a local Michelin star award)
@@ -124,7 +126,7 @@ Home Page \&gt; About \&gt; Contact \&gt;Sign Up for more Powerful Tools
 
 **Each page has its own hyperlinks relevant to it**
 
-![](RackMultipart20210401-4-dqop97_html_5864476e432e7a88.png)
+![image](img/readmepics/3.jpg)
 
 1. **Home Page:**
   - It opens with a &quot;bang&quot; and has a carousel feature showing large images of food
@@ -152,7 +154,9 @@ Home Page \&gt; About \&gt; Contact \&gt;Sign Up for more Powerful Tools
     4. Easy to identify buttons
 2. Reader Comprehension
   1. Content are grouped according to subject matter and prose is broken up when long.
-  2. T ![](RackMultipart20210401-4-dqop97_html_36449be4ea6628ea.png) he Flesch Readability Test = 54.7, Flesch-Kincaid Grade Level Score = 7, which means the website is easily understood by 13-14 year olds and up.
+  2. The Flesch Readability Test = 54.7, Flesch-Kincaid Grade Level Score = 7, which means the website is easily understood by 13-14 year olds and up.
+
+![image](img/readmepics/4.jpg) 
 
 1. Operability
   1. The visitor should be able to easily navigate without trouble.
@@ -181,7 +185,7 @@ Home Page \&gt; About \&gt; Contact \&gt;Sign Up for more Powerful Tools
 
 **Site Map**
 
-![](RackMultipart20210401-4-dqop97_html_5864476e432e7a88.png)
+![image](img/readmepics/5.jpg) 
 
 **Navigation Elements**
 
@@ -242,11 +246,13 @@ The contact form in the Contact Us page is meant to facilitate either email, voi
 - Design a data model that ﬁts the purpose of the project
 - Develop the model into a usable non-relational database where data is stored in a consistent and well-organised manner.
 
-![](RackMultipart20210401-4-dqop97_html_3343967bd7056c8f.png) **Database schema**
+![image](img/readmepics/6.jpg) 
+
+**Database schema**
 
 The non-relational database uses MongoDB and focuses on the management of straightforward data such as restaurant name, address, feedback star, restaurant introduction, peer review.
 
-![](RackMultipart20210401-4-dqop97_html_7adb0a60f53868d4.png)
+![image](img/readmepics/7.jpg) 
 
 **LO3 Demonstrate competence in querying and manipulating non-relational data effectively**
 
@@ -256,9 +262,9 @@ The non-relational database uses MongoDB and focuses on the management of straig
 
 A simple 4 column design is used to display search results by category and by price point:
 
-![](RackMultipart20210401-4-dqop97_html_33034dff1561990a.png)
+![image](img/readmepics/8.jpg) 
 
-![](RackMultipart20210401-4-dqop97_html_85606f2df4c9cac5.png)
+![image](img/readmepics/9.jpg) 
 
 - Additional search tags are appended to the original user-defined input to aid in specific searches for documents etc
 
@@ -306,7 +312,7 @@ Post deployment test procedures:
 - JS scripts have cleared Jshint Linter
 - What remains are largely esversion:6 syntax issues.
 
-![](RackMultipart20210401-4-dqop97_html_39fc84fe1661b32f.png)
+![image](img/readmepics/10.jpg) 
 
 - 3 pages checked using W3C Jigsaw CSS Validator (https://jigsaw.w3.org/css-validator/)
   - home.html – 2 errors detected in bootstrap.css.min (told to ignore them by instructor)
