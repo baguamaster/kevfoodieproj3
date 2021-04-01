@@ -8,8 +8,8 @@
 
 By Kevin Ho | [traderkev54@yahoo.com](mailto:traderkev54@yahoo.com)
 
-&quot;
-# **JIA BA BEH&quot;**
+
+# **&quot;JIA BA BEH&quot;**
 
 [_Singaporean Hokkien Dialect_: &quot;Have you eaten?&quot;]
 
