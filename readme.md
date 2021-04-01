@@ -34,7 +34,7 @@ Deployment of the website can be found in the heroku URL:
 
 [**https://kh-kevfoodieproj3.herokuapp.com/**](https://kh-kevfoodieproj3.herokuapp.com/)
 
-Github version control maybe accessed via:
+Github version control may be accessed via:
 
 [**https://github.com/baguamaster/kevfoodieproj3**](https://github.com/baguamaster/kevfoodieproj3)
 
@@ -120,9 +120,6 @@ Information required on the website to fulfil the content requirements.
 
 **Content Structure (Sitemap)**
 
-The website will be arranged in a simple order:
-
-Home Page \&gt; About \&gt; Contact \&gt;Sign Up for more Powerful Tools
 
 **Each page has its own hyperlinks relevant to it**
 
